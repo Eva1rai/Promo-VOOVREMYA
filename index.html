@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8"> <!-- кодировка работающая по стандарту unicode для текста -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- для адаптива сайта -->
+    <meta property="og:type" content="artical"> <!-- тип добавления материала - artical - статьс / movie - кино -->
+    <meta property="og:url" content="{https://github.com}"> <!-- ссылка на наш сайт -->
+    <meta property="og:title" content="VOOVREMYA"> <!-- название проекта -->
+    <meta property="og:description" content="just write here your cool description"> <!-- описание проекта -->
+    <meta property="og:image" content="./img/..."> <!-- картинка сайта-->
+    <title>delivery</title>
+      <link rel="icon" href="img/Group 52.png">
+      <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+      <script src="./javascripts/jquery-3.7.1.js"></script>
+      <script src="javascripts/java-script.js" charset="utf-8"></script>
+  </head>
+  <body>
+  <div id="background" class="hidden"></div>
+    <nav id="navbar" class="hidden">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <ul class="menu">
+      
+          <div class="logo"><img src="./img/logo.png" alt=""></div>
+
+            <li><a href="./index.html"><span class="bb1">ДОСТАВКА</span></a></li>
+            <li><a href="./novosti.html">НОВОСТИ</a></li>
+            <li><a href="./shop.html">МАГАЗИН</a></li>
+            <li><a href="./aboutus.html">О БРЕНДЕ</a></li>
+        </ul>
+    </nav>
+    <div id="typing-text" class="hidden"></div>
+
+    <div id="content" class="hidden">
+      <div class="ch1">
+      <h2 class="z1">ДОСТАВКА</h2>
+        <p class="t1"><span class="bb"> Ленивцевая доставка </span> — это новый подход <br/>
+          к доставке товаров, который позволяет нашим<br/>
+          клиентам наслаждаться комфортом и удобством <br/>
+          без лишних хлопот. Мы используем специально <br/>
+          <span class="bb">медленно</span> и <span class="bb">аккуратно</span>, обеспечивая сохранность<br/>
+          ваших посылок.
+        </p>
+
+      <p class="t2">
+        Наша команда состоит из <span class="bb">профессионалов</span>, 
+        которые стремятся предоставить наилучший <br/>
+        сервис и удовлетворить потребности каждого <br/>
+        клиента. Мы постоянно работаем над улучшением <br/>
+        наших услуг и расширением ассортимента <br/>
+        предлагаемых товаров.<br/>
+      </p>
+
+      <div class="f1"> <img src="./img/1f.png" alt=""></div>
+    </div>
+
+    <div class="ch2">
+      <h2 class="z2">Вот как работает</h2>
+      <h2 class="z22">ленивцева доставка:</h2>
+      <p class="pz1">1. Оформление заказа</p>
+      <p class="t3">клиенты могут <span class="bb">легко</span> оформить заказ на нашем сайте</br>
+        или через мобильное приложение. </br>
+        После подтверждения заказа наши менеджеры </br>
+        связываются с клиентом для уточнения деталей </br>
+        и способа доставки.
+      </p>
+        <p class="pz2">2. Обработка заказа</p>
+        <p class="t4">после получения заказа наши специалисты<br/>
+          обрабатывают его и <span class="bb">готовят к отправке</span>. </br>
+          Мы тщательно упаковываем товары, чтобы обеспечить </br>
+          их сохранность во время транспортировки.<br/>
+        </p>
+          <p class="pz3">3. Выбор способа доставки</p>
+          <p class="t5">клиенты могут выбрать <span class="bb">наиболее удобный</span> </br>
+            для них <span class="bb">способ</span> доставки. Мы предлагаем </br>
+            различные варианты, такие как курьерская </br>
+            доставка, отправка почтой, самовывоз </br>
+            из пунктов выдачи или постаматов.</br>
+          </p>
+            <p class="pz4">4. Контроль доставки</p>
+            <p class="t6">мы отслеживаем статус доставки каждого </br>
+              заказа и предоставляем клиентам <span class="bb">актуальную</span> </br>
+              <span class="bb">информацию</span> о статусе доставки. Клиенты </br>
+              могут также отслеживать свои заказы </br>
+              самостоятельно через наш сайт или мобильное</br>
+              приложение.
+            </p>
+              <p class="pz5">5. Получение заказа</p>
+              <p class="t7">
+                после прибытия заказа в указанный клиентом</br>
+                пункт выдачи или доставки клиент получает </br>
+                свой заказ. <span class="bb">Мы гарантируем</span> соблюдение</br>
+                сроков доставки и сохранность товаров.</br>
+              </p>
+    <div class="f2"> <img src="./img/2f.png" alt=""></div>  
+    <div class="f3"> <img src="./img/3f.png" alt=""></div>    
+    </div>
+
+    <div class="ch3">
+      <div class="runner">
+        <div class="message">
+            <div class="column">
+                <div class="textik">получите доставку!</div>
+                
+            </div>
+            <div class="column">
+                <div class="textik">получите доставку!</div>
+                
+            </div>
+            <div class="column">
+                <div class="textik">получите доставку!</div>
+                
+            </div>
+            <div class="column">
+                <div class="textik">получите доставку!</div> 
+            </div>
+
+            
+            
+      
+        </div>
+    </div>
+    <script>
+      window.addEventListener('load', function () {
+          var runner = document.querySelector('.runner');
+          var message = document.querySelector('.message');
+          var messageWidth = message.offsetWidth;
+          var runnerWidth = runner.offsetWidth;
+  
+          if (messageWidth < runnerWidth * 2) {
+              var repeatCount = Math.ceil((runnerWidth * 2) / messageWidth);
+              var newContent = message.innerHTML.repeat(repeatCount);
+              message.innerHTML = newContent;
+          }
+      });
+  </script>
+</div>
+<div class="ch4">
+  <h2 class="z3">Способы доставки</h2>
+<div class="obz">
+  <div class="k1">
+    <p class="pz6">Курьерская</p>
+  <p class="t9"> 
+    Курьеры доставляют товары</br>
+     прямо к двери клиента,</br>
+    что экономит время и силы.</br>
+    Возможность общения </br>
+    с курьером и уточнения</br>
+     деталей доставки.</br>
+  </p></div>
+  <div class="k2">
+    <p class="pz6">Почтой</p>
+  <p class="t9">
+    Почтовая служба охватывает</br>
+     даже самые удаленные</br>
+      районы, обеспечивая доступ</br>
+к товарам для всех клиентов.</br>
+Часто доставка почтой</br>
+ обходится дешевле,</br> 
+чем курьерская служба
+  </p></div>
+  <div class="k3">
+    <p class="pz6">Самовывоз</p>
+  <p class="t9">
+    Возможность выбрать удобное</br>
+     время для получения товара</br>
+      без ожидания курьера.</br>
+Клиенты могут осмотреть</br> 
+и проверить товар перед</br> оплатой, что исключает риск</br>
+ недовольства.
+  </p></div>
+</div>
+</div>
+<div class="ch5">
+  <div class="f4"> <img src="./img/4f.png" alt=""></div>  
+</div>
+<div class="ch6">
+  <h2 class="z3">Доставка – это ....</h2>
+  <p class="t10">это не просто способ получить товар, это целый опыт, </br>
+    который начинается с момента оформления заказа </br>
+    и заканчивается его получением. </br>
+    Ленивцева доставка — это <span class="bb">символ комфорта</span></br>
+    и эксклюзивности, который предлагает своим</br>
+    клиентам уникальные преимущества.</br>
+  <p class="t11">
+    <span class="bb">Идивидуальный подход</span> — каждая доставка сопровождается</br>
+    вниманием к деталям. Эмоциональный аспект — доставка</br>
+    становится маленьким праздником. Мы добавляем сюрпризы</br> 
+    и приятные мелочи, которые делают получение заказа</br>
+    особенным моментом.</br>
+    </p>
+  </div>
+<div class="ch7">
+<h2 class="z7">Некуда спешить,</br>
+  успеешь заказать!</h2>
+  <button class="zak" id="showdiv">заказать!</button>
+  <div class="f5"> <img src="./img/5f.png" alt=""></div> 
+  <div class="anket" class="hidden">
+    <div id="mydiv" class="hidden"> 
+      <div class="mydiv"> <img src="./img/anketik.png" alt=""></div> 
+    </div> 
+  </div>
+</div>
+
+<div class="ch8">
+  <div class="f6"> <img src="./img/6f.png" alt="">
+    <p class="t12">+7 499 000 48 57</p>
+    <p class="t13">с нами воовремя!</p>
+    <div class="f7"> <img src="./img/7f.png" alt=""></div>  
+  </div>  
+
+</div>
+
+</div>
+  
+
+
+  </body> 
+</html>
